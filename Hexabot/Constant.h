@@ -26,9 +26,9 @@ Adafruit_PWMServoDriver ServoB = Adafruit_PWMServoDriver(0x41);
 
 const int OffsetServoPinA[] = {ServoOffset_01, ServoOffset_02, ServoOffset_03, ServoOffset_04, ServoOffset_05, ServoOffset_06, ServoOffset_07, ServoOffset_08, ServoOffset_09};
 const int OffsetServoPinB[] = {ServoOffset_10, ServoOffset_11, ServoOffset_12, ServoOffset_13, ServoOffset_14, ServoOffset_15, ServoOffset_16, ServoOffset_17, ServoOffset_18};
-
 const int ServoPinA[] = {4, 5, 6, 8, 9, 10, 12, 13, 14};
 const int ServoPinB[] = {4, 5, 6, 8, 9, 10, 12, 13, 14};
+
 int ServoValue[18] = {1500};
 
 void setServoPulseA(uint8_t n, double uS_pulse) {
